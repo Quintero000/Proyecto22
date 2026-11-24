@@ -1,0 +1,146 @@
+[
+  {
+    "pregunta": "¿Qué significa HTML?",
+    "opciones": [
+      {
+        "texto": "HyperText Markup Language"
+      },
+      {
+        "texto": "HighText Machine Language"
+      },
+      {
+        "texto": "HyperTool Multi Language"
+      },
+      {
+        "texto": "HomeText Markdown Language"
+      }
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué lenguaje se utiliza principalmente para dar estilos a una página web?",
+    "opciones": [
+      {
+        "texto": "SQL"
+      },
+      {
+        "texto": "CSS"
+      },
+      {
+        "texto": "Python"
+      },
+      {
+        "texto": "Java"
+      }
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué instrucción permite declarar una variable que puede reasignarse en JavaScript?",
+    "opciones": [
+      {
+        "texto": "const"
+      },
+      {
+        "texto": "static"
+      },
+      {
+        "texto": "let"
+      },
+      {
+        "texto": "var"
+      }
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué método convierte una cadena JSON en un objeto de JavaScript?",
+    "opciones": [
+      {
+        "texto": "JSON.stringify()"
+      },
+      {
+        "texto": "JSON.parse()"
+      },
+      {
+        "texto": "JSON.convert()"
+      },
+      {
+        "texto": "JSON.object()"
+      }
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué propiedad permite seleccionar un elemento por su identificador en CSS?",
+    "opciones": [
+      {
+        "texto": ".nombre"
+      },
+      {
+        "texto": "#nombre"
+      },
+      {
+        "texto": "*nombre"
+      },
+      {
+        "texto": "@nombre"
+      }
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué evento ocurre cuando el usuario hace clic en un botón?",
+    "opciones": [
+      {
+        "texto": "hover"
+      },
+      {
+        "texto": "change"
+      },
+      {
+        "texto": "submit"
+      },
+      {
+        "texto": "click"
+      }
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de localStorage en el navegador?",
+    "opciones": [
+      {
+        "texto": "Guardar datos localmente entre sesiones"
+      },
+      {
+        "texto": "Ejecutar consultas SQL"
+      },
+      {
+        "texto": "Crear estilos CSS"
+      },
+      {
+        "texto": "Enviar correos electrónicos"
+      }
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué método agrega un elemento al final de un arreglo en JavaScript?",
+    "opciones": [
+      {
+        "texto": "shift()"
+      },
+      {
+        "texto": "pop()"
+      },
+      {
+        "texto": "push()"
+      },
+      {
+        "texto": "slice()"
+      }
+    ],
+    "respuestaCorrecta": 2
+  }
+]

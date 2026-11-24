@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App | Proyecto 22</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <section id="pantalla-inicio" class="panel pantalla">
+      <span class="etiqueta">PROYECTO 22</span>
+      <h1>Quiz App</h1>
+      <p class="intro">Pon a prueba tus conocimientos con este examen interactivo.</p>
+      <div class="detalles">
+        <div><strong id="total-inicio">8</strong><span>Preguntas</span></div>
+        <div><strong>60 s</strong><span>Por pregunta</span></div>
+        <div><strong>1 punto</strong><span>Por acierto</span></div>
+      </div>
+      <button id="btn-comenzar" class="btn btn-principal">Comenzar examen</button>
+    </section>
+
+    <section id="pantalla-quiz" class="panel pantalla oculto">
+      <div class="barra-superior">
+        <span id="progreso-texto">Pregunta 1 de 8</span>
+        <span class="temporizador">⏱ <strong id="tiempo">60</strong>s</span>
+      </div>
+      <div class="barra-progreso"><div id="progreso"></div></div>
+      <article class="tarjeta-pregunta">
+        <span class="categoria">PREGUNTA</span>
+        <h2 id="texto-pregunta">Cargando pregunta...</h2>
+        <div id="opciones" class="opciones"></div>
+        <p id="retroalimentacion" class="retroalimentacion" aria-live="polite"></p>
+      </article>
+      <div class="pie-quiz">
+        <span>Puntaje: <strong id="puntaje">0</strong></span>
+        <button id="btn-siguiente" class="btn btn-principal" disabled>Siguiente</button>
+      </div>
+    </section>
+
+    <section id="pantalla-resultados" class="panel pantalla oculto">
+      <span class="etiqueta">EXAMEN FINALIZADO</span>
+      <h1>¡Buen trabajo!</h1>
+      <p class="intro">Este es el resumen de tu intento.</p>
+      <div class="resultado-circulo"><strong id="puntaje-final">0</strong><span id="puntaje-maximo">/ 8</span></div>
+      <p id="mensaje-final" class="mensaje-final"></p>
+      <h2 class="titulo-resumen">Revisión de respuestas</h2>
+      <div id="resumen" class="resumen"></div>
+      <button id="btn-reiniciar" class="btn btn-principal">Volver a intentar</button>
+    </section>
+    <p class="creditos">Quiz App · Proyecto de práctica JavaScript</p>
+  </main>
+</body>
+</html>
